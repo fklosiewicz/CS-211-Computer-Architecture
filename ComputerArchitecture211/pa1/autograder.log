@@ -1,0 +1,15 @@
+2020-02-22 00:37:48,964 ERROR    Uncaught exception: [Errno 32] Broken pipe
+BrokenPipeError: [Errno 32] Broken pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/ilab/users/fk206/pa1/autograde.py", line 934, in main
+    test_project(assignment, src_dir, build_dir, data_dir, **kws)
+  File "/ilab/users/fk206/pa1/autograde.py", line 715, in test_project
+    (success, credit) = t.run()
+  File "/ilab/users/fk206/pa1/autograde.py", line 156, in run
+    self.handle_stdin(p.stdin)
+  File "/ilab/users/fk206/pa1/autograde.py", line 354, in handle_stdin
+    stdin.close()
+BrokenPipeError: [Errno 32] Broken pipe
