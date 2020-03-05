@@ -14,6 +14,11 @@ Description of each project:
         - If the input string contains digits, rle MUST print “error” and nothing else.
       - Linked Lists
         - Program list that maintains and manipulates a sorted linked list according to instructions received from standard input.
+        - The linked list is maintained in order, meaning that the items in the list are stored in increasing numeric order after every           operation.
+      - Matrix Manipulation
+        - Program mexp that multiplies a square matrix by itself a speciﬁed number of times. mexp takes a single argument, which is the           path to a ﬁle containing a square **(k×k)** matrix **M** and a non-negative exponent **n**. It computes M^n and prints the               result. 
+      - Binary Search Trees
+        - Program bst that manipulates binary search trees. It will receive commands from standard input, and print resposes to those             commands to standard output.
        
 
 
