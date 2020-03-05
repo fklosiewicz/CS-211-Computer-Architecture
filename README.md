@@ -3,22 +3,19 @@ These are some of the projects I did while taking Computer Architecture (CS 211)
 
 Description of each project:
 
-  1. Big Integer
-      - A command line interface program to parse, add, subtract, and multiply integers larger than can be stored in the int datatype.
-      - BigTest and DigitNode classes had been provided. 
-  2. Trie
-      - A command line program to take words in a text file and generate a prefix-trie. 
-      - Also implemented trie-search to search for words fulfilling a prefix in the trie.    
-      - TrieApp and TrieNode classes had been provided.
-  3. Expression Evaluator
-      - Designed a command line Java program using recursion and the stack data structure to evaluate arithmetic expressions entered             directly as a string by the user input. 
-      - The program allows for swift computation of mathematical expressions using a variety of different operators, whose mathematical         precedence is determined by their position in the implemented stacks.
-      - Apart from the Expression class, driver and stack code was provided.
-  4. Friends
-      - Designed a Java program to take in a text file with data formatted to the described person relationships, and construct a                graphical representation of them. 
-      - Using breadth-first search and depth-first search traversal algorithms, the program allows for:
-        - Searching of “cliques” or islands of friends 
-        - Shortest chains between two people
-        - "Connectors” or individuals who, when removed from the graph, cause other individuals to be separated entirely from                      another side of the graph.   
-      - Apart from the Friends class, driver and node code was provided.
+  1. Assignment I (6 small C programs)
+      - Roman
+        - Program roman which converts numbers from deciman notation into Roman numerals. roman takes a single argument, a string                   containing a non-negative integer, and prints its Roman numeral equivalent to standard output.
+      - Palindrome
+        - Program palindrome that tests whether a string is a palindrome, meaning that the sequence of letters is symmetric and is not               changed by reversal. palindrome takes a single argument, which is a string containing any combination of upper- and lower-case             letters, digits, and punctuation marks. palindrome prints “yes” if its string is a palindrome, and “no” otherwise.
+      - Run-length Encoding
+        - Program rle that uses a simple method to compress strings. Rle takes a single argument and looks for repeated characters. Each             repeated sequence of a letter or punctuation mark is reduced to a single character plus an integer indicating the number of               times it occurs. Thus, “aaa” becomes “a3” and “ab” becomes “a1b1”. 
+        - If the compressed string is longer than the original string, rle must print the original string instead. 
+        - If the input string contains digits, rle MUST print “error” and nothing else.
+      - Linked Lists
+        - Program list that maintains and manipulates a sorted linked list according to instructions received from standard input.
+       
+
+
+
       
