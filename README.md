@@ -7,7 +7,7 @@ These are some of the projects I did while taking Computer Architecture (CS 211)
       
   2. Trie
   
-      • A command line program to take words in a text file and generate a prefix-trie. 
+      ⦾ A command line program to take words in a text file and generate a prefix-trie. 
       • Also implemented trie-search to search for words fulfilling a prefix in the trie. 
       • TrieApp and TrieNode classes had been provided.
       
