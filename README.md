@@ -7,9 +7,11 @@ These are some of the projects I did while taking Computer Architecture (CS 211)
       
   2. Trie
   
-      ⦿ A command line program to take words in a text file and generate a prefix-trie. 
-      • Also implemented trie-search to search for words fulfilling a prefix in the trie. 
-      • TrieApp and TrieNode classes had been provided.
+      ◦ A command line program to take words in a text file and generate a prefix-trie. 
+      
+      ◦ Also implemented trie-search to search for words fulfilling a prefix in the trie. 
+      
+      ◦ TrieApp and TrieNode classes had been provided.
       
   3. Expression Evaluator
       • Designed a command line Java program using recursion and the stack data structure to evaluate arithmetic expressions entered               directly as a string by the user input. 
