@@ -2,10 +2,8 @@
 These are some of the projects I did while taking Computer Architecture (CS 211) during my spring semester of sophomore year of college. All projects are completed in C. Third project is an Assembly debugger project.
 
   1. Big Integer
-  
-      ◦ A command line interface program to parse, add, subtract, and multiply integers larger than can be stored in the int datatype.
-      
-      ◦ BigTest and DigitNode classes had been provided.
+      - A command line interface program to parse, add, subtract, and multiply integers larger than can be stored in the int datatype.
+      - BigTest and DigitNode classes had been provided.
       
   2. Trie
   
