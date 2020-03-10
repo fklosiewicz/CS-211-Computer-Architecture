@@ -10,8 +10,8 @@ Description of each project:
         - Program **palindrome** that tests whether a string is a palindrome, meaning that the sequence of letters is symmetric and is not               changed by reversal. **Palindrome** takes a single argument, which is a string containing any combination of upper- and lower-case             letters, digits, and punctuation marks.
       - Run-length Encoding
         - Program **rle** that uses a simple method to compress strings. **Rle** takes a single argument and looks for repeated characters. Each             repeated sequence of a letter or punctuation mark is reduced to a single character plus an integer indicating the number of               times it occurs. Thus, “aaa” becomes “a3” and “ab” becomes “a1b1”. 
-        - If the compressed string is longer than the original string, rle must print the original string instead. 
-        - If the input string contains digits, rle MUST print “error” and nothing else.
+        - If the compressed string is longer than the original string, **rle** must print the original string instead. 
+        - If the input string contains digits, **rle** MUST print “error” and nothing else.
       - Linked Lists
         - Program **list** that maintains and manipulates a sorted linked list according to instructions received from standard input.
         - The linked list is maintained in order, meaning that the items in the list are stored in increasing numeric order after every           operation.
