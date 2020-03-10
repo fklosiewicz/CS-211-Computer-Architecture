@@ -70,12 +70,6 @@ int main(int argc, char **argv) {
 	fscanf(fp,"%d",&power);
 	fclose(fp);
 	int **result = matrix;
-	
-//	int resultant;
-
-//	int **final = matrix;
-
-//	printf("The size of the matrix is %d, the first value of the matrix is %d, the last value of the matrix is %d, and the power of the matrix is %d", size, result[0][0], result[size-1][size-1], power);
 
 	result = Multiply(matrix,matrix,size);
 	power--;
@@ -83,7 +77,6 @@ int main(int argc, char **argv) {
 		result = Multiply(result,matrix,size);
 		power--;
 	}
-//	printf("\n\n");
 	PrintMatrix(result, size);
 	
     return EXIT_SUCCESS;
