@@ -11,7 +11,6 @@ Description of each project:
       - Run-length Encoding
         - Program **rle** that uses a simple method to compress strings. **Rle** takes a single argument and looks for repeated characters. Each             repeated sequence of a letter or punctuation mark is reduced to a single character plus an integer indicating the number of               times it occurs. Thus, “aaa” becomes “a3” and “ab” becomes “a1b1”. 
         - If the compressed string is longer than the original string, **rle** must print the original string instead. 
-        - If the input string contains digits, **rle** MUST print “error” and nothing else.
       - Linked Lists
         - Program **list** that maintains and manipulates a sorted linked list according to instructions received from standard input.
         - The linked list is maintained in order, meaning that the items in the list are stored in increasing numeric order after every           operation.
