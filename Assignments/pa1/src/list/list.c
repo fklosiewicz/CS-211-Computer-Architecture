@@ -11,9 +11,7 @@ typedef struct Node {
 } Node;
 
 struct Node* newNode(int data) {
-
 	struct Node* newNode = (struct Node*)malloc(sizeof(struct Node) * 2);
-
 		newNode->data = data;
 		newNode->next = NULL;
 	return newNode;
@@ -40,19 +38,16 @@ void InsertNode(struct Node** head, struct Node* newNode) {
 	if(*head == NULL|| (*head)->data >= newNode->data) {
 		newNode->next = *head;
 		*head = newNode;
-//		printf("Successful insertion, concluding inital insertion!");
 		return;
 	}
-
 	Node* current = *head;
-//	printf("Initializing head");
+	
 	while(current->next != NULL && current->next->data < newNode->data) {
 		current = current->next;
 	}
-	
+
 	newNode->next = current->next;
 	current->next = newNode;	
-//	printf("Successful insertion!");
 	return;
 }
 
@@ -107,7 +102,6 @@ void DeleteNode(struct Node** head, int nodetodelete) {
 
 int main(int argc, char **argv)
 {
-  //  printf("Enter i to insert, followed by a space, then a number to insert: \n");
 	char ch;
 	int i;
 	Node *head = NULL;
@@ -132,13 +126,10 @@ int main(int argc, char **argv)
 				PrintLL(head);
 			}	
 		} 
-	//	if(ch != 'i' || ch != 'd') {
-	//		break;
-	//	}
+		
 	printf("\n");
 	}
 	if(ch != 'i' || ch != 'd') {
-	//	printf("Wrong character input, concluding program.");	
 		return EXIT_SUCCESS;
 }
 
