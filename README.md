@@ -5,7 +5,7 @@ Description of each project:
 
   1. Assignment I (6 small C programs)
       - Roman
-        - Program **roman** which converts numbers from decimal notation into Roman numerals. *Roman** takes a single argument, a string                   containing a non-negative integer, and prints its Roman numeral equivalent to standard output.
+        - Program **roman** which converts numbers from decimal notation into Roman numerals. **Roman** takes a single argument, a string                   containing a non-negative integer, and prints its Roman numeral equivalent to standard output.
       - Palindrome
         - Program **palindrome** that tests whether a string is a palindrome, meaning that the sequence of letters is symmetric and is not               changed by reversal. **Palindrome** takes a single argument, which is a string containing any combination of upper- and lower-case             letters, digits, and punctuation marks.
       - Run-length Encoding
