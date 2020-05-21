@@ -399,16 +399,16 @@ int main(int argc, char **argv) {
 
 
 		// After we have our gate with the specified number of inputs, outputs, and selectors for multiplexer,
-		// we find their position in the general 2D array of variables using sequential search.
+		// we find their position in the general linked list of variables using sequential search.
 		
 		// Once we find that position, we input that position for the first block of memory of inputs for this specific gate.
 			// ex: AND has an input array of 2, output array of 1, no selectors.
-				// Given a directive: AND a b c, we find the position of "a" in the variable 2D array and store it in the first block of memory
+				// Given a directive: AND a b c, we find the position of "a" in the linked list of variables and store it in the first block of memory
 				// of the input array of AND. Then, we find the positon of "b" likewise, and store "b" in the second block of memory of the input array.
 				// Then, we move onto outputs (in this case 1) and we perform the same procedure.
 			
 
-		// Therefore, the actual inputs in the input array of the gate are refered to by their indices of the 2D array of variables. 
+		// Therefore, the actual inputs in the input array of the gate are refered to by their indices of the linkest list of variables. 
 
 		char tempvar3[17];
 		for (int i = 0; i < inputs; i++) {
@@ -441,8 +441,8 @@ int main(int argc, char **argv) {
 			int position;
 			fscanf(fp, " %16s", tempvar5);
 			position = SequentialSearchNode(VARHEAD, tempvar5);
-			if (position == 999) {		 // SequentialSearch returns 999, so no output value found. Must be a temporary variable.
-				InsertNode(&VARHEAD, newNode(length, tempvar5));			 // Increment your 2D Variable array by 1.
+			if (position == 999) {		 // SequentialSearchNode returns 999, so no output value found. Must be a temporary variable.
+				InsertNode(&VARHEAD, newNode(length, tempvar5));			 
 				LogicGate.ArrayOfOutputs[i] = length;
 				length = length + 1;
 				continue;
