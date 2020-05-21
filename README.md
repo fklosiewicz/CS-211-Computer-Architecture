@@ -33,5 +33,9 @@ Description of each project:
          
   3. Bomb Lab (X86 Assembly)
         - Linux executable C program that consists of 9 phases. Each phase expects a particular string on standard input.  If the                 correct string is entered, then that phase is defused, otherwise the bomb explodes.
-        - In order to defuse the bomb, a debugger is necessary to disassemble the binary and single-step through the machine code in               each phase. The idea is to understand what each assembly statement does, and then use this knowledge to infer the defusing               string. 
+        - In order to defuse the bomb, a debugger is necessary to disassemble the binary and single-step through the machine code in               each phase. The idea is to understand what each assembly statement does, and then use this knowledge to infer the defusing               string.
+        
+  4. Digital Logic Design
+        - Program **truthtable** that prints a given circuit's truth table. **Truthtable** takes a single argument, a file containing             the description of a logic circuit, which specifies the number and names of each input to the circuit, the number and names of           each output from the circuit, and the logic gates that make up the circuit.
+        - Once the program runs through the file, it then prints the truth table for every possible combination of the inputs.
       
